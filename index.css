@@ -1,0 +1,241 @@
+body{
+  background-color: rgb(212, 212, 212);
+}
+@import url('https://fonts.googleapis.com/css2?family=Akt:wght@100..900&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;
+}
+
+.cabecario{
+width: 100%;
+height: 100px;
+background-color: rgb(44, 44, 44);
+display: flex;
+
+border-radius: 10px;
+transition: 0.1s;
+}
+
+.cb1{
+width: 400px;
+height: 100px;
+display: flex;
+}
+.vip{
+    width: 200px;
+}
+
+.logo{
+width: 100px;
+border-radius: 100px ;
+}
+
+.cb2{
+width: 500px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cb2 input{
+background-color: rgb(58, 58, 58);
+border: none;
+width: 450px;
+height: 50px;
+border-radius: 20px;
+}
+
+.lupa{
+  filter: invert(11%) sepia(50%) saturate(5000%) hue-rotate(334deg) brightness(100%) contrast(100%);
+width: 40px;
+}
+
+.cb2 ::placeholder{
+color: rgb(255, 255, 255);
+font-size: 16px;
+}
+
+.cb3{
+width: 375px;
+height: 100px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.yt{
+    width: 80px;
+    filter: invert(11%) sepia(50%) saturate(5000%) hue-rotate(334deg) brightness(100%) contrast(100%);
+    transition: 0.3s;
+}
+.yt:hover{
+width: 90px;
+transition: 0.3s;
+}
+
+.insta{
+width: 80px;
+filter: invert(11%) sepia(50%) saturate(5000%) hue-rotate(334deg) brightness(100%) contrast(100%);
+transition: 0.3s;
+}
+
+.insta:hover{
+width: 90px;
+transition: 0.3s;
+}
+
+.noticiasp{
+width: 98%;
+height: 600px;
+position: relative;
+top: 20px;
+left: 10px;
+}
+
+
+.mg2 img{
+  width: 490px;
+  position: relative;
+  left: 720px;
+  top: -540px;
+   border-radius: 15px;
+   transition: 0.3s;
+}
+.mg2 img:hover{
+width: 510px;
+transition: 0.3s;
+
+}
+
+
+.mg3 img{
+  width: 490px;
+  position: relative;
+  left: 720px;
+  top: -530px;
+   border-radius: 15px;
+   transition: 0.3s;
+}
+.mg3 img:hover{
+width: 510px;
+transition: 0.3s;
+
+}
+
+
+.mg1 img{
+  width: 670px;
+  position: relative;
+  top: 30px;
+ border-radius: 15px;
+ transition: 0.3s;
+}
+
+.mg1 img:hover{
+  width: 700px;
+ transition: 0.3s;
+}
+
+
+.mg1 h1{
+  position: absolute;
+  top: 500px;
+  left: 2px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.767);
+  border: 2px solid rgba(41, 41, 41, 0.527);
+  background-color: rgba(255, 255, 255, 0.137); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  font-family: "Akt", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.mg2 h1{
+position: absolute;
+  top: 240px;
+  left: 730px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.767);
+  border: 2px solid rgba(41, 41, 41, 0.527);
+  background-color: rgba(255, 255, 255, 0.137); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  font-family: "Akt", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.mg3 h1{
+  position: absolute;
+  top: 530px;
+  left: 730px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.767);
+  border: 2px solid rgba(41, 41, 41, 0.527);
+  background-color: rgba(255, 255, 255, 0.137); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  font-family: "Akt", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Menu Suspenso (Dropdown Container) */
+.tnt-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 62px; 
+  right: 3px;
+  background-color: #1a1a1e;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+  z-index: 10;
+  border-top: 2px solid #4b0e0e; /* Repete a identidade visual no topo do submenu */
+}
+
+/* Itens internos do dropdown */
+.tnt-dropdown-content a {
+  color: #cccccc;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: block;
+  height: auto;
+  border-bottom: 1px solid #26262b;
+}
+
+/* Efeito de destaque ao passar o mouse nas opções suspensas */
+.tnt-dropdown-content a:hover {
+  background-color: #26262b;
+  color: #912727; /* O texto ou detalhe ganha a cor vibrante */
+  padding-left: 25px; /* Sutil efeito de deslocamento */
+}
+
+/* Gatilho para exibir o painel */
+.tnt-dropdown:hover .tnt-dropdown-content {
+  display: block;
+}
+
+.tnt-dropbtn img{
+width: 70px;
+filter: invert(11%) sepia(50%) saturate(5000%) hue-rotate(334deg) brightness(100%) contrast(100%);
+transition: 0.3s;
+}
+
+.tnt-dropbtn img:hover{
+width: 80px;
+  transition: 0.3s;
+}
+
+
