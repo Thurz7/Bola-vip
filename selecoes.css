@@ -104,10 +104,11 @@ html{
 
 
 .FRA{
-    background-color: black;
+    background-color: white;
     height: 60em;
     width: 50em;
     border-radius: 1em;
+    border: solid blue 1em;
 }
 
 .FF img{
@@ -116,7 +117,7 @@ html{
 }
 
 .FF{
-    background-color:black;
+    background-color:white;
    display: flex;
    align-items: center;
 } 
@@ -124,16 +125,17 @@ html{
 .FF p{
     padding-left: 2em;
     font-size: 2em;
-    color: white;
+    color: bla;
 }
 
 .FRA ul{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    list-style-type: none;
     
 }
 
@@ -141,10 +143,11 @@ html{
 
 
 .ALE{
-    background-color: black;
+    background-color: white;
     height: 60em;
     width: 50em;
     border-radius: 1em;
+    border: solid yellow 1em;
     
 }
 
@@ -154,7 +157,7 @@ html{
 }
 
 .AA{
-    background-color: black;
+    background-color:white;
     display: flex;
     align-items: center;
 } 
@@ -168,7 +171,7 @@ html{
 .ALE ul{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: purple;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -183,10 +186,11 @@ html{
 
 
 .PORT{
-    background-color: black;
+    background-color: white;
     height: 60em;
     width: 50em;
     border-radius: 1em;
+    border: solid red 1em;
 }
 
 .PP img{
@@ -195,7 +199,7 @@ html{
 }
 
 .PP{
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
 } 
@@ -203,13 +207,13 @@ html{
 .PP p{
     padding-left: 2em;
     font-size: 2em;
-    color: white;
+    color: red;
 }
 
 .PORT ul{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: red;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -231,10 +235,11 @@ html{
 
 
 .ESPANHA{
-    background-color: black;
+    background-color: white;
     height: 60em;
     width: 50em;
     border-radius: 1em;
+    border: solid orangered 1em;
 }
 
 .ESP img{
@@ -243,7 +248,7 @@ html{
 }
 
 .ESP{
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
 } 
@@ -251,13 +256,13 @@ html{
 .ESP p{
     padding-left: 2em;
     font-size: 2em;
-    color: white;
+    color: orangered;
 }
 
 .ESPANHA ul{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: orangered;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -266,10 +271,11 @@ html{
 
 
 .ARGENTINA{
-    background-color: black;
+    background-color: white;
     height: 60em;
     width: 50em;
     border-radius: 1em;
+    border: solid rgb(102, 175, 243) 1em;
    
 }
 
@@ -279,7 +285,7 @@ html{
 }
 
 .ARG{
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
 } 
@@ -293,7 +299,7 @@ html{
 .ARGENTINA ul{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: rgb(102, 175, 243);
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -303,10 +309,11 @@ html{
 
 
 .MARROCOS{
-    background-color: black;
+    background-color: white;
     height: 60em;
     width: 50em;
-    border-radius: 1em;
+  
+    border: solid rgba(134, 13, 13, 0.473) 1em;
 }
 
 .MARR img{
@@ -315,7 +322,7 @@ html{
 }
 
 .MARR{
-    background-color: black;
+    background-color: white;
     display: flex;
     align-items: center;
 } 
@@ -323,15 +330,16 @@ html{
 .MARR p{
     padding-left: 2em;
     font-size: 2em;
-    color: white;
+    color: rgba(134, 13, 13, 0.473);
 }
 
 .MARROCOS ul{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: rgba(75, 6, 6, 0.863);
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
