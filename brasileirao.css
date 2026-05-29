@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+html{
+    font-size: 10px;
+}
+
+.container{
+    background-color: rgb(44, 44, 44);
+    height: 11em;
+    display: flex;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+.CLASS{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #912727;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.VOLTAR{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: -1em;
+    left: 15em;
+    text-decoration: none;
+    font-size: 20px;
+    color: #912727;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copa{
+    height: 50em;
+    width: 60em;
+    position: relative;
+    top: -41em;
+    left: 3em;
+    border-radius: 1em;
+}
+
+.copa h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+.copa p{
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.copa img{
+    border-radius: 1em;
+    transition: 0.3s;
+}
+
+.copa img:hover{
+    width: 55em;
+    transition: 0.3s;
+}
+.copa a{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.explica{
+    height: 45em;
+    width: 60em;
+    position: relative;
+    top: 5em;
+    left: 65em;
+    border-radius: 1em;
+}
+
+.explica h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+.explica p{
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.explica img{
+    border-radius: 1em;
+    transition: 0.3s;
+}
+
+.explica img:hover{
+    width: 55em;
+    transition: 0.3s;
+}
+
+.explica a{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

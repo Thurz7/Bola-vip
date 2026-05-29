@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    background-color: rgb(44, 44, 44);
+    height: 11em;
+    display: flex;
+    border-radius: 1em;
+}
+
+.container img{
+    border-radius: 1em;
+}
+
+.CLASS{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #912727;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.VOLTAR{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: -1em;
+    left: 20em;
+    text-decoration: none;
+    font-size: 20px;
+    color: #912727;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.times{
+    background-color: aqua;
+    height: 15em;
+    width: 31em;
+    font-size: 2em;
+    position: relative;
+    top: 1em;
+    left: 17em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+.primeira{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1em;
+    left: 32em;
+    border-radius: 1em;
+    transition: 0.3s;
+}
+
+.primeira:hover{
+    width: 70em;
+    transition: 0.3s;
+}
+
+
+
+.timesdois{
+    position: relative;
+    left: 2em;
+}
+
+.times h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.times ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}

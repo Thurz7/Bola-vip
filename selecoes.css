@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size:10px;
+}
+
+.menu{
+  background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selessa{
+    display: flex;
+    align-items: center;
+    background-color: white;
+  margin-left:75em;
+
+}
+
+.selessa h1{
+    padding-left: 1em;
+    font-size: 5em;
+
+     font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.botaoVOLTAR{
+    display: flex;
+    align-items: center;
+   height: 3em;
+   width: 13em;
+}
+
+.botaoVOLTAR a{
+    font-size: 2em;
+    padding: 1.7em;
+    text-decoration: none;
+    border-radius: 2em;
+    color: black;
+
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.botaoVOLTAR ul :hover{
+    padding: 2em;
+    background-color: yellow;
+}
+
+
+
+
+
+
+.principais{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+}
+
+.SLCOES{
+    background-color:white;
+    width: 15em;
+    font-size: 2em;
+}
+
+.SLCOES h2{
+    padding-left: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.abaGERAL{
+    background-color: white;
+    height: 60em;
+    border-radius: 2em;
+    display: flex;
+   justify-content: space-between;
+   gap: 1em;
+  
+
+}
+
+
+.FRA{
+    background-color: black;
+    height: 60em;
+    width: 50em;
+    border-radius: 1em;
+}
+
+.FF img{
+    border-radius: 2em;
+    
+}
+
+.FF{
+    background-color:black;
+   display: flex;
+   align-items: center;
+} 
+
+.FF p{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.FRA ul{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+.ALE{
+    background-color: black;
+    height: 60em;
+    width: 50em;
+    border-radius: 1em;
+    
+}
+
+.AA img{
+    border-radius: 2em;
+    
+}
+
+.AA{
+    background-color: black;
+    display: flex;
+    align-items: center;
+} 
+
+.AA p{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.ALE ul{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.PORT{
+    background-color: black;
+    height: 60em;
+    width: 50em;
+    border-radius: 1em;
+}
+
+.PP img{
+    border-radius: 2em;
+    
+}
+
+.PP{
+    background-color: black;
+    display: flex;
+    align-items: center;
+} 
+
+.PP p{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.PORT ul{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.aba2{
+    background-color: white;
+    height: 60em;
+    border-radius: 2em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+
+.ESPANHA{
+    background-color: black;
+    height: 60em;
+    width: 50em;
+    border-radius: 1em;
+}
+
+.ESP img{
+    border-radius: 2em;
+    
+}
+
+.ESP{
+    background-color: black;
+    display: flex;
+    align-items: center;
+} 
+
+.ESP p{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.ESPANHA ul{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ARGENTINA{
+    background-color: black;
+    height: 60em;
+    width: 50em;
+    border-radius: 1em;
+   
+}
+
+.ARG img{
+    border-radius: 2em;
+    
+}
+
+.ARG{
+    background-color: black;
+    display: flex;
+    align-items: center;
+} 
+
+.ARG p{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.ARGENTINA ul{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.MARROCOS{
+    background-color: black;
+    height: 60em;
+    width: 50em;
+    border-radius: 1em;
+}
+
+.MARR img{
+    border-radius: 2em;
+    
+}
+
+.MARR{
+    background-color: black;
+    display: flex;
+    align-items: center;
+} 
+
+.MARR p{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.MARROCOS ul{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
